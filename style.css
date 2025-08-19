@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --main-bg-color: rgb(160, 220, 235);
+}
+
+.text-center {
+    text-align: center;
+    font-size: 2vw;
+    color: var(--main-bg-color);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background:var(--main-bg-color);;
+    padding: 0 2vw;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    font-family: "Varela Round", sans-serif;
+    padding: 0 1px;
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+    
+    
+}
+
+.logo img {
+    margin-right: 5px;
+}
+
+
+nav ul .list {
+    display: flex;
+    margin-right: 545px;
+}
+
+nav ul {
+    display: flex;
+    height: 8vh;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0px 10px;
+    font-size: 18px;
+}
+
+nav ul li a {
+    background-color: var(--main-bg-color);
+    color: rgb(19, 3, 3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    
+}
+ 
+
+.container {
+    background-position: center;
+    background-size: cover;
+    background-image: url(data:data:image/jpeg;base64,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);
+    color:black;
+    display: flex;
+    font-weight: bolder;
+    font-family: "Varela Round", sans-serif;
+}
+
+.spaced-list li {
+    margin-bottom: 20px; /* Adds spacing between list items */
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+
+
+footer {
+    height: 10vh;
+    background-color: var(--main-bg-color);
+    color: rgb(19, 3, 3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+}
