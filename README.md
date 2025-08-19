@@ -43,16 +43,15 @@ It provides details on AI principles, methodologies, and applications through cl
 
 ## 🚀 Getting Started
 
-### 1. Clone the repository
+### 1. Clone the repository:
 ```bash
 git clone https://github.com/ShreyaAnand1810/My_version.git
-
-## 2. Open in Browser
-```bash
 cd My_version
-open index.html   # or double-click index.html
+open index.html  # or double-click index.html
 
-## 📌 Future Improvements
+---
+
+### 📌 Future Improvements
 - Add more interactive challenges under challenges.html.
 - Include visuals or diagrams for each AI concept.
 - Enhance animations and UI effects.
