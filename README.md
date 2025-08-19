@@ -47,7 +47,7 @@ It provides details on AI principles, methodologies, and applications through cl
 ```bash
 git clone https://github.com/ShreyaAnand1810/My_version.git
 
-### 2. Open in Browser
+## 2. Open in Browser
 ```bash
 cd My_version
 open index.html   # or double-click index.html
